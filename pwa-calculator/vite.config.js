@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-    base: "/pwa-calculator/",
+    base: "/WebApp-ios-v1/",
     plugins: [
         react(),
         VitePWA({
@@ -16,8 +16,8 @@ export default defineConfig({
                 theme_color: "#4a90e2",
                 background_color: "#ffffff",
                 display: "standalone",
-                scope: "/pwa-calculator/",
-                start_url: "/pwa-calculator/",
+                scope: "/WebApp-ios-v1/",
+                start_url: "/WebApp-ios-v1/",
                 icons: [
                     {
                         src: "pwa-192x192.png",
